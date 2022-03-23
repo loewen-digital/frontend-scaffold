@@ -1,4 +1,4 @@
-# @loewen-digital/frontend-scaffold
+# frontend-scaffold
 
 A scaffold/generator to streamline setting up new frontend projects with config files, formatters and linters.
 
