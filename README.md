@@ -13,15 +13,12 @@ A scaffold/generator to streamline setting up new frontend projects with config 
 
 ## Getting started
 
-Run the following command:
+Run the following commands:
 
 ```
 npx @loewen-digital/frontend-scaffold
+npm install
 ```
-
-## TODO
-
--   add npx task
 
 ## Contributing & Development
 
