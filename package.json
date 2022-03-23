@@ -9,6 +9,10 @@
 	},
 	"author": "Eddy Löwen <eddy@lowen.digital> (https://lowen.digital)",
 	"license": "MIT",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
 	"dependencies": {
 		"eslint": "^8.11.0",
 		"eslint-config-prettier": "^8.5.0",
