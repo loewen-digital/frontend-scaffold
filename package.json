@@ -1,0 +1,33 @@
+{
+	"name": "@loewen-digital/frontend-scaffold",
+	"version": "0.1.0",
+	"description": "A scaffold/generator to streamline setting up new frontend projects with config files, formatters and linters.",
+	"bin": "bin.js",
+	"repository": "https://github.com/loewen-digital/frontend-scaffold.git",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Eddy Löwen <eddy@lowen.digital> (https://lowen.digital)",
+	"license": "MIT",
+	"dependencies": {
+		"eslint": "^8.11.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.3.7",
+		"prettier": "^2.6.0",
+		"stylelint": "^14.6.0",
+		"stylelint-config-prettier": "^9.0.3",
+		"stylelint-prettier": "^2.0.0"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{css,js,json,yaml,yml,md}": [
+			"prettier --write"
+		]
+	}
+}
