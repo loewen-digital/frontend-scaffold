@@ -21,9 +21,6 @@ npx @loewen-digital/frontend-scaffold
 
 ## TODO
 
--   add .github actions to publish to npm
--   add semantic versioning
--   publish to npm
 -   add npx task
 
 ## Contributing & Development
