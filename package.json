@@ -9,6 +9,7 @@
 	},
 	"author": "Eddy Löwen <eddy@lowen.digital> (https://lowen.digital)",
 	"license": "MIT",
+	"private": false,
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://registry.npmjs.org/"
