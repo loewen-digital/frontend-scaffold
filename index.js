@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import { copy } from './utils.js';
 
 export async function scaffold(cwd, version, options) {

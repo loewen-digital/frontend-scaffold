@@ -1,8 +1,8 @@
 {
 	"name": "@loewen-digital/frontend-scaffold",
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"description": "A scaffold/generator to streamline setting up new frontend projects with config files, formatters and linters.",
-	"type": "module",
+	"type": "commonjs",
 	"bin": "bin.js",
 	"repository": "https://github.com/loewen-digital/frontend-scaffold.git",
 	"scripts": {
@@ -16,15 +16,16 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"dependencies": {
-		"eslint": "^8.11.0",
+		"eslint": "^8.23.0",
 		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-prettier": "^4.0.0",
-		"husky": "^7.0.4",
-		"kleur": "^4.1.4",
-		"lint-staged": "^12.3.7",
-		"prettier": "^2.6.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"husky": "^8.0.1",
+		"kleur": "^4.1.5",
+		"lint-staged": "^13.0.3",
+		"prettier": "^2.7.1",
 		"prompts": "^2.4.2",
-		"stylelint": "^14.6.0",
+		"stylelint": "^14.11.0",
 		"stylelint-config-prettier": "^9.0.3",
 		"stylelint-prettier": "^2.0.0"
 	},

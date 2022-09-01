@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import { bold, cyan, gray, green } from 'kleur/colors';
 import prompts from 'prompts';
 import { scaffold } from './index.js';
