@@ -1,6 +1,6 @@
 {
 	"name": "@loewen-digital/frontend-scaffold",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description": "A scaffold/generator to streamline setting up new frontend projects with config files, formatters and linters.",
 	"type": "commonjs",
 	"bin": "bin.js",
